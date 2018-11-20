@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from "react-router-dom";
 
 const Index = () => (
-    <BrowserRouter basename={ProcessingInstruction.env.PUBLIC_URL}>
+    <BrowserRouter>
         <App/>
     </BrowserRouter>
 );
